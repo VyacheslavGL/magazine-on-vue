@@ -1,0 +1,53 @@
+{
+  "name": "vue-tify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build1": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "start-dev": "node lib/server-development",
+    "start1": "node lib/server-production",
+    "watch": "webpack --watch",
+    "watch1": "webpack --watch --progress --colors --config webpack.conf.js",
+    "dev": "webpack --progress --colors --config webpack.conf.js",
+    "prod": "NODE_ENV=production webpack -p --config webpack.conf.js"
+  },
+  "dependencies": {
+    "@mdi/js": "^4.1.95",
+    "core-js": "^2.6.5",
+    "firebase": "^6.3.5",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vue-the-mask": "^0.11.1",
+    "vue-youtube-embed": "^2.2.2",
+    "vuetify": "^2.0.5",
+    "vuetify-confirm": "^1.0.0-alpha.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@mdi/font": "^3.9.97",
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "babel-eslint": "^10.0.1",
+    "css-loader": "^3.2.0",
+    "deepmerge": "^4.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "fibers": "^4.0.1",
+    "prettier": "^1.18.2",
+    "sass": "^1.22.9",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-vuetify": "^0.6.3",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
